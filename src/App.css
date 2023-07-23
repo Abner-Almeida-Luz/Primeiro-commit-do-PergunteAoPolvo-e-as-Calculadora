@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+}
+#App {
+  width: 100vw;
+  font-size: 100%;
+  align-items: center;
+}
+
+#Cabecalho {
+  width: 100vw ;
+  height: auto;
+  font-size: 5vh;
+}
+
+
+
+#PergunteAoPolvo-App {
+  width: auto;
+  background-color: rgb(39, 38, 38);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  }
+  #Parte-Polvo {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 75vh;
+  margin: 0px 25%;
+  border-radius: 20px;
+  background-color: rgb(31, 72, 255);
+  }
+  #Polvo-img {
+  width: 70%;
+  height: 60%;
+  }
+  .Polvo-input {
+  margin-top: 10px;
+  height: 8%;
+  width: 37.6%;
+  font-size: 2vw;
+  color: black;
+  border-radius: 4px;
+  background-color: white;
+  border: none ;
+  }
+  #Polvo-botao {
+  width: 80%;
+  height: 8%;
+  font-size: 3vh;
+  border-radius: 4px;
+  background-color:  rgb(31,31,31);
+  border: none;
+  }
+  #Polvo-res {
+  color: rgb(202, 202, 202);
+  box-sizing: content-box;
+  font-size: 5vh;
+  }  
+  
+  #Parte-Calculadora {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin: 10vh 25vw;
+  margin-bottom: 1%;
+  position: relative;
+  border-radius: 20px;
+  height: 75vh;
+  background-color: rgb(31, 72, 255);
+  }
+  #Calculadora-previuosoperations {
+  font-size: 5vh;
+  color: black;
+  }
+  #Calculadora-currentoperation {
+  font-size: 5vh;
+  color: black;
+  }
+  #Calculadora-Container {
+  width: auto;
+  height: 75vh;
+  box-sizing: border-box;
+  width: 80%;
+  height: 100%;
+  margin: 0px 10%;
+  display: grid;
+  margin-bottom: 10%;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 1%;
+  }
+  #Calculadora-operations {
+    text-align: right;
+    height: auto;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    margin-bottom: 5vh;
+    background-color: white ;
+    border-radius: 5px;
+    }
+  #igual{
+  grid-column-start: 4;
+  grid-column-end: 6;
+  width: calc(16vw + 2%);
+  }
+  
+  .Calculadora-botao {
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: max(2vh, 2vw);
+  width: 8vw;
+  height: 8vh;
+  background-color: rgb(31,31,31);
+  color: #ffff
+  }
+
+  #Calculadora-App {
+    margin: 0px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: rgb(39, 38, 38);
+    text-align: center;
+}   
+
+#CalculadoraDeInvestimentos {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 75vw;
+height: 100%;
+margin: 12.5vh 12.5vw;
+border-radius: 20px;
+background-color: rgb(31, 72, 255);
+}
+#CalculadoraDeInvestimentos-inputs {
+  border: hidden;
+width: 75%;
+height: auto;
+margin: 0px 12.5%;
+margin-top: 10%;
+font-size: calc(100vh/20);
+background-color: white;
+color: black;
+}
+#CalculadoraDeInvestimentos-inputs input {
+  width: 100%;
+  margin-left: 0px;
+  border: none;
+}
+
+.ContainerDosElementos {
+border: hidden;
+width: 75%;
+height: auto;
+margin: 0px 12.5%;
+font-size: calc(100vh/20);
+background-color: white;
+color: black;
+}
+#CalculadoraDeInvestimentos button {
+  background-color:rgb(107, 106, 106);
+  color: white;
+}
+
+#ValorFinal {
+color: rgb(207, 205, 205);
+margin-bottom: 10%;
+background:none;
+}
